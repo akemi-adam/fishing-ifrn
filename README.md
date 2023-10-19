@@ -6,7 +6,11 @@ Na fase atual, esse projeto visa realizar um CRUD completo da entidade Bagre na 
 
 Primeiramente, crie um arquivo chamado `database.db` na raiz do projeto.
 
-Após isso, rode o comando 
+Após isso, rode o comando:
+
+```shell
+uvicorn main:app --reload --port 8000
+```
 
 # Endpoints
 
